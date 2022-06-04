@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #c3b19d;
+    height: 90px;
+}
+
+.logo{
+    display: inline;
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+
+.navlist{
+    padding-left: 1000px;
+    padding-top: 20px;
+    
+}
+.navlist li{
+    display: inline;
+    float: left;
+    margin: 20px;
+}
+
+.navlist-item a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlist-item a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.left-container{
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 900px;
+    clear: left;
+    float: left;
+}
+
+.main-img img{
+    width: 800px;
+}
+
+.quote-first p{
+    background-color: #dcc5b3;
+    width: 800px;
+    padding: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.date{
+    background-color: #615140;
+    width: 150px;
+    display: inline;
+    float: left;
+    height: 57px;
+}
+
+.date p{
+    font-size: 18px;
+    padding-top: 17px;
+    padding-left: 10px;
+    color: white;
+}
+
+.event-item{
+    background-color: #c3b19d;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.event-item p{
+    padding: 10px;
+    font-size: 16px;
+    padding-left: 175px;
+    font-weight: bold;
+}
+
+.quote-first p{
+    font-weight: bold;
+}
+
+
+.quote-second p{
+    background-color: #dcc5b3;
+    width: 800px;
+    padding: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.right-container{
+    background-color: #ebd5bf;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 1200px;
+    float: right;
+    clear: right;
+    margin-right: 100px;
+}
+
+.image img{
+    width: 360px;
+    padding-left: 40px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.items{
+    margin: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.name{
+    display: inline;
+    float: left;
+    padding-left: 10px;
+}
+
+.info{
+    padding-left: 110px;
+}
+
+.horizontal-row{
+    padding-left: 100px;
+}
+
+hr{
+    color: black;
+    margin-top: 20px;
+    border: 1px solid black;
+}
