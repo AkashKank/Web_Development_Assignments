@@ -1,0 +1,2462 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Baskerville&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: white;
+    height: 110px;
+}
+
+.logo{
+    display: inline;
+    float: left;
+}
+
+.logo img{
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.searchbar{
+    height: 40px;
+    width: 374px;
+    background-color: #E2E8F0;
+    display: inline;
+    float: left;
+    margin-top: 40px;
+    margin-left: 230px;
+    border-radius: 5px;
+}
+
+.searchbar i{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #6B6464;
+}
+
+.searchbar p{
+    display: inline;
+    font-size: 17px;
+    padding-left: 20px;
+    color: #6B6464;
+}
+
+.navlist{
+    padding-left: 1050px;
+    padding-top: 30px;  
+}
+
+.navlist li{
+    display: inline;
+    float: left;
+    margin: 20px;
+}
+
+.navlist-item a{
+    text-decoration: none;
+    color: #6B6464;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navlist-item a:hover{
+    color: rgb(88, 88, 207);
+    cursor: pointer;
+}
+
+.long-container{
+    width: 100%;
+    height: 912px;
+    background-color: #E5EBF6;
+    margin: auto;
+}
+
+.sublog-container{
+    width: 77%;
+    height: 912px;
+    margin: auto;
+}
+
+.card{
+    padding-top: 20px;
+    display: block;
+}
+
+.card1{
+    height: 89px;
+    width: 256px;
+    background-color: aqua;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+}
+
+.card1 p{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #6B6464;
+}
+
+.card i{
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 11px;
+    color: #699BF7;
+}
+
+.card2{
+    height: 89px;
+    width: 256px;
+    background-color: aqua;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    margin-left: 48.5px;
+    background-color: white;
+}
+
+.card2 p{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #6B6464;
+}
+
+.card3{
+    height: 89px;
+    width: 256px;
+    background-color: aqua;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    margin-left: 48.6px;
+    background-color: white;
+}
+
+.card3 p{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #6B6464;
+}
+
+.card4{
+    height: 89px;
+    width: 256px;
+    background-color: aqua;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    margin-left: 48.6px;
+    background-color: white;
+}
+
+.card4 p{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #6B6464;
+}
+
+.main-container .btn button{
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBD0F8;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-container .btn button:hover{
+    color: white;
+    background-color: rgb(123, 119, 119);
+    cursor: pointer;
+}
+
+.headline{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 650px;
+    margin-top: 26px;
+    color: #171717;
+}
+
+.para{
+    width: 730px;
+    font-size: 18px;
+    margin-top: 26px;
+    color: #6B6464;
+}
+
+.main-image img{
+    float: right;
+    margin-top: -360px;
+    border-radius: 5px 50px 50px 50px;
+}
+
+.circle-dot{
+    height:25px;
+    width: 150px;
+    margin-top: 60px;
+}
+
+.circle-dot .circle1{
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: #B2AFAF;
+    display: inline;
+    float: left;
+}
+
+.circle-dot .circle2{
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: #7B7979;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+
+.circle-dot .circle3{
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: #B2AFAF;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+
+.box{
+    margin-top: 95px;
+}
+
+.box1{
+    height: 152px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.box1 img{
+    width: 120px;
+    height: 136px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.Astronut p{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    color: #171717;
+    padding-right: 10px;
+    padding-top: 18px;
+    display: inline;
+    float: right;
+}
+
+.jane p{
+    display: inline;
+    float: right;
+    font-size: 11;
+    font-weight: bold;
+    padding-right: 125px;
+    padding-top: 10px;
+    color: #6B6464;
+}
+
+.Date1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -13.5px;
+    margin-right: 60px;
+    color: #6B6464;
+}
+
+.time i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -14px;
+    margin-right: 40px;
+    color: #6B6464;
+}
+
+.time p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -14px;
+    margin-right: 14px;
+    color: #6B6464;
+}
+
+.box2{
+    height: 152px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    margin-left: 62.7px;
+}
+
+.date-time2{
+    padding-top: 50px;
+}
+
+.box2 img{
+    width: 120px;
+    height: 136px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.satellite p{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    color: #171717;
+    padding-right: 10px;
+    padding-top: 18px;
+    display: inline;
+    float: right;
+}
+
+.box2 .jane2 p{
+    display: inline;
+    float: right;
+    font-size: 11;
+    font-weight: bold;
+    padding-right: 136px;
+    padding-top: 20px;
+    color: #6B6464;
+}
+.box2 .Date1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -13.5px;
+    margin-right: 70px;
+    color: #6B6464;
+}
+
+.box2 .time i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -14px;
+    margin-right: 45px;
+    color: #6B6464;
+}
+
+.box2 .time p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -14px;
+    margin-right: 14px;
+    color: #6B6464;
+}
+
+.box3{
+    height: 152px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    margin-left: 62.7px;
+}
+
+.box3 img{
+    width: 120px;
+    height: 136px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.chotu p{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    color: #171717;
+    padding-right: 10px;
+    padding-top: 18px;
+    display: inline;
+    float: right;
+}
+
+.box .box3 .jane3 p{
+    display: inline;
+    float: right;
+    font-size: 11;
+    font-weight: bold;
+    padding-right: 118px;
+    padding-top: 13px;
+    color: #6B6464;
+}
+
+.box3 .Date1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: 7px;
+    margin-right: 144px;
+    color: #6B6464;
+}
+
+.box3 .time i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -14px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.box3 .time p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -14px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.big-container{
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+    margin: auto;
+}
+
+.subbig-container{
+    width: 77%;
+    height: 1200px;
+    background-color: white;
+    margin: auto;
+}
+
+.line{
+    padding-top: 45px;
+}
+
+.line1{
+    width: 8px;
+    height: 40px;
+    background: #C4CCD9;
+    border-radius: 10px;
+    margin-top: px;
+}
+
+.editors-pick{
+    display: inline;
+    float: left;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 20px;
+
+}
+
+.editors-pick p{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    display: inline;
+}
+
+.room{
+    margin-top: 45px;
+}
+
+.room1{
+    height: 336px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.room1 .Tec-btn button{
+    height: 32px;
+    width: 181px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBFAD4;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.text1 h5{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 270px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.text1 p{
+    width: 305px;
+    font-size: 15px;
+    color: #171717;
+    margin-left: 30px;
+    margin-top: 55px;
+}
+
+.jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.room .room1 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 170px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.room1 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -23px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.room1 .time-1{
+    margin-right: 50px;
+}
+
+.room1 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -23px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.room1 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -23px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.room2{
+    height: 336px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 62.7px
+}
+
+.room2 .Tec-btn button{
+    height: 32px;
+    width: 181px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBFAD4;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.room2 .text2 h5{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 270px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.room2 .text2 p{
+    width: 305px;
+    font-size: 15px;
+    color: #171717;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.room .room2 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 183px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.room2 .Date-2 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -23px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.room2 .time-2{
+    margin-right: 50px;
+}
+
+.room2 .time-2 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -23px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.room2 .time-2 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -23px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.room3{
+    height: 336px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 62.7px
+}
+
+.room3 .Tec-btn button{
+    height: 32px;
+    width: 181px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FEFFB5;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.room3 .text3 h5{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 260px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.room3 .text3 p{
+    width: 305px;
+    font-size: 15px;
+    color: #171717;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.room .room3 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 166px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.room3 .Date-3 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -23px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.room3 .time-3{
+    margin-right: 50px;
+}
+
+.room3 .time-3 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -23px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.room3 .time-3 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -23px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.line-1{
+    padding-top: 45px;
+}
+
+.line-2{
+    width: 8px;
+    height: 40px;
+    background: #C4CCD9;
+    border-radius: 10px;
+    margin-top: px;
+}
+
+.new{
+    margin-top: 335px;
+}
+
+.whats-new{
+    display: inline;
+    float: left;
+    padding-top: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+
+.whats-new p{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    display: inline;
+}
+
+.photo{
+    margin-top: 45px;
+}
+
+.photo .photo-1{
+    height: 272px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background: url("../Images/Astronaut.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-1 .Tec-btn button{
+    height: 32px;
+    width: 181px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FEFFB5;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.photo-1 .text-1 h5{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 260px;
+    margin-left: 30px;
+    color: #E7E7E7;
+    margin-top: 20px;
+}
+
+.astro-content{
+    margin-top: -15px;
+}
+
+.photo-1 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.photo .photo-1 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 180px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #E7E7E7;
+}
+
+.photo-1 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -23px;
+    margin-right: 198px;
+    color: #E7E7E7;
+}
+
+.photo-1 .time-1{
+    margin-right: 50px;
+}
+
+.photo-1 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -23px;
+    margin-right: 125px;
+    color: #E7E7E7;
+}
+
+.photo-1 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -23px;
+    margin-right: 100px;
+    color: #E7E7E7;
+}
+
+.photo .photo-2{
+    height: 272px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background: url("../Images/satellite.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    display: inline;
+    float: left;
+}
+
+.photo-2 .Tec-btn button{
+    height: 32px;
+    width: 130px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBD0F8;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.photo-2 .text-1 h5{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 250px;
+    margin-left: 30px;
+    color: #E7E7E7;
+    margin-top: 20px;
+}
+
+.photo-2 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.photo .photo-2 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 188px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #E7E7E7;
+}
+
+.photo-2 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -23px;
+    margin-right: 198px;
+    color: #E7E7E7;
+}
+
+.photo-2 .time-1{
+    margin-right: 50px;
+}
+
+.photo-2 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -23px;
+    margin-right: 125px;
+    color: #E7E7E7;
+}
+
+.photo-2 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -23px;
+    margin-right: 100px;
+    color: #E7E7E7;
+}
+
+.photo-2 .astro-content2{
+    margin-top: 10px;
+}
+
+.photo .photo-3{
+    height: 557px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 12px;
+    display: inline;
+    float: left;
+    margin-top: -271.5px;
+    margin-left: 62.7px
+}
+
+.photo-3 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.photo-3 .space  button{
+    height: 32px;
+    width: 80px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #DFB7FF;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.photo-3 .text-1 h5{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 250px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.photo-3 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: 31px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.photo-3 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 45px;
+    height: 50px;
+    width: 50px;
+}
+
+.photo .photo-3 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 180px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.photo-3 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.photo-3 .time-1{
+    margin-right: 50px;
+}
+
+.photo-3 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.photo-3 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.photo-4{
+    height: 176px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: -271.5px;
+    margin-left: 62.7px;
+    display: inline;
+    float: right;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.photo-4 img{
+    width: 120px;
+    height: 160px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.photo-4 .Tec-btn button{
+    height: 30px;
+    width: 170px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBFAD4;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.photo-4 .Astronut p{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    color: #171717;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: inline;
+    float: right;
+}
+
+.photo-4 .jane3 p{
+    display: inline;
+    float: right;
+    font-size: 11;
+    font-weight: bold;
+    padding-right: 118px;
+    padding-top: 8px;
+    color: #6B6464;
+}
+
+.photo-4 .Date1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    margin-right: 144px;
+    color: #6B6464;
+}
+
+.photo-4 .time i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -13.5px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.photo-4 .time p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -13.5px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.photo-5{
+    height: 176px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: -82px;
+    margin-left: 62.7px;
+    display: inline;
+    float: right;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.photo-5 img{
+    width: 120px;
+    height: 160px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.photo-5 .Tec-btn button{
+    height: 30px;
+    width: 170px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBFAD4;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.photo-5 .Astronut p{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    color: #171717;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: inline;
+    float: right;
+}
+
+.photo-5 .jane3 p{
+    display: inline;
+    float: right;
+    font-size: 11;
+    font-weight: bold;
+    padding-right: 134px;
+    padding-top: 6px;
+    color: #6B6464;
+}
+
+.photo-5 .Date1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -13px;
+    margin-right: 70px;
+    color: #6B6464;
+}
+
+.photo-5 .time i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -13.5px;
+    margin-right: 50px;
+    color: #6B6464;
+}
+
+.photo-5 .time p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -13.5px;
+    margin-right: 20px;
+    color: #6B6464;
+}
+
+.photo-6{
+    height: 176px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 14px;
+    margin-left: 62.7px;
+    display: inline;
+    float: right;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.photo-6 img{
+    width: 120px;
+    height: 160px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.photo-6 .Tec-btn button{
+    height: 30px;
+    width: 170px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #BBFAD4;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.photo-6 .Astronut p{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    color: #171717;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: inline;
+    float: right;
+}
+
+.photo-6 .jane3 p{
+    display: inline;
+    float: right;
+    font-size: 11;
+    font-weight: bold;
+    padding-right: 119px;
+    padding-top: 6px;
+    color: #6B6464;
+}
+
+.photo-6 .Date1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: 6px;
+    margin-right: 140px;
+    color: #6B6464;
+}
+
+.photo-6 .time i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -13.5px;
+    margin-right: 119px;
+    color: #6B6464;
+}
+
+.photo-6 .time p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -13.5px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.subblock-container{
+    width: 1400px;
+    height: 480px;
+    background-color: #7af2e4;
+    margin: auto;
+    background: url(../Images/Water.webp);
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.under{
+    width: 768px;
+    height: 255px;
+    margin-left: 340px;
+    margin-top: 110px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.under .Tec-btn button{
+    height: 32px;
+    width: 181px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FEFFB5;
+    font-weight: bold;
+    color: #1A1919;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 280px;
+}
+
+.subblock-container .Astronut h2{
+    width: 500px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Libre+Baskerville;
+    color: #464444;
+    margin-left: 130px;
+    padding-top: 12px;
+}
+
+.subblock-container .Astronut p{
+    width: 500px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Libre+Baskerville;
+    color: #464444;
+    padding-top: 2px;
+    margin-right: 30px;
+
+}
+
+.subblock-container .jane-smith img{
+    border-radius: 100%;
+    margin-left: 300px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.subblock-container .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 335px;
+    margin-top: -35px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.rem-container{
+    width: 77%;
+    height: 1530px;
+    background-color: white;
+    margin: auto;
+    margin-top: -340px;
+}
+
+.block{
+    margin-top: 45px;
+}
+
+.block1{
+    height: 508px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.block1 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.block1 .text-1 h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 280px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.block1 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: 43px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.block1 .datetime{
+    margin-top: 3px;
+}
+
+.block1 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.block1 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 164px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.block1 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.block1 .time-1{
+    margin-right: 50px;
+}
+
+.block1 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.block1 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.block2{
+    height: 508px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 62.7px
+}
+
+.block2 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.block2 .text-1 h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 280px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.block2 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: -12px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.block2 .datetime{
+    margin-top: 3px;
+}
+
+.block2 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.block2 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 180px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.block2 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.block2 .time-1{
+    margin-right: 50px;
+}
+
+.block2 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.block2 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.block3{
+    height: 508px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: right;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.block3 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.block3 .text-1 h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 280px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.block3 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: 43px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.block3 .datetime{
+    margin-top: 3px;
+}
+
+.block3 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.block3 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 172px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.block3 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.block3 .time-1{
+    margin-right: 50px;
+}
+
+.block3 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.block3 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+
+.lock{
+    padding-top: 60px;
+}
+
+.block4{
+    height: 508px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+}
+
+.block4 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.block4 .text-1 h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 280px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.block4 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: -12px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.block4 .datetime{
+    margin-top: 3px;
+}
+
+.block4 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.block4 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 164px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.block4 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.block4 .time-1{
+    margin-right: 50px;
+}
+
+.block4 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.block4 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.block5{
+    height: 508px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 62.7px;
+    margin-top: 20px;
+}
+
+.block5 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.block5 .text-1 h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 280px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.block5 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: -12px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.block5 .datetime{
+    margin-top: 3px;
+}
+
+.block5 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.block5 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 164px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.block5 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.block5 .time-1{
+    margin-right: 50px;
+}
+
+.block5 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.block5 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.block6{
+    height: 508px;
+    width: 348px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline;
+    float: right;
+    background-color: white;
+    border: 1.5px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+}
+
+.block6 img{
+    width: 326px;
+    height: 222px;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.block6 .text-1 h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Libre+Baskerville;
+    width: 280px;
+    margin-left: 30px;
+    color: #171717;
+    margin-top: 20px;
+}
+
+.block6 .para p{
+    width: 260px;
+    font-size: 15px;
+    margin-top: -12px;
+    margin-left: 31px;
+    color: #6B6464;
+}
+
+.block6 .datetime{
+    margin-top: 3px;
+}
+
+.block6 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+.block6 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 180px;
+    margin-top: -48px;
+    padding-top: px;
+    color: #6B6464;
+}
+
+.block6 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: -25px;
+    margin-right: 190px;
+    color: #6B6464;
+}
+
+.block6 .time-1{
+    margin-right: 50px;
+}
+
+.block6 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 120px;
+    color: #6B6464;
+}
+
+.block6 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -25px;
+    margin-right: 90px;
+    color: #6B6464;
+}
+
+.middle-container{
+    width: 77%;
+    height: 1465px;
+    margin: auto;
+    margin-top: -375px;
+}
+
+.middle-container .line .Tec-btn button{
+    display: inline;
+    float: right;
+    width: 108px;
+    height: 28px;
+    left: 1154px;
+    background: #DFB7FF;
+    border-radius: 5px;
+    margin-top: -36px;
+}
+
+.mold1{
+    width: 532px;
+    height: 304px;
+    background: #FFFFFF;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: inline;
+    float: left;
+    margin-top: 30px;
+}
+
+.mold1 img{
+    width: 219px;
+    height: 282px;
+    margin-left: 10px;
+    margin-top: 9px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.mold1 .Astronut p{
+    width: 220px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #171717;
+    font-family: Libre+Baskerville;
+    padding-right: 10px;
+    margin-right: 60px;
+    padding-top: 18px;
+    display: inline;
+    float: right;
+}
+
+.mold1 .paragraph p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 160px;
+    margin-left: 250px;
+    color: #756C6C;
+}
+
+.mold1 .datetime{
+    margin-top: 3px;
+}
+
+.mold1 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.mold1 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 160px;
+    margin-top: 25px;
+    color: #6B6464;
+}
+
+.mold1 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    margin-right: 178px;
+    color: #6B6464;
+}
+
+.mold1 .time-1{
+    margin-right: 50px;
+}
+
+.mold1 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -13px;
+    margin-right: 110px;
+    color: #6B6464;
+}
+
+.mold1 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -13px;
+    margin-right: 80px;
+    color: #6B6464;
+}
+
+.mold2{
+    width: 532px;
+    height: 304px;
+    background: #FFFFFF;
+    border: 1px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: inline;
+    float: right;
+    margin-top: 30px;
+}
+
+.mold2 img{
+    width: 219px;
+    height: 282px;
+    margin-left: 10px;
+    margin-top: 9px;
+    border-radius: 16px;
+    display: inline;
+    float: left;
+}
+
+.mold2 .Astronut p{
+    width: 220px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #171717;
+    font-family: Libre+Baskerville;
+    padding-right: 10px;
+    margin-right: 60px;
+    padding-top: 18px;
+    display: inline;
+    float: right;
+}
+
+.mold2 .paragraph p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 160px;
+    margin-left: 250px;
+    color: #756C6C;
+}
+
+.mold2 .datetime{
+    margin-top: 3px;
+}
+
+.mold2 .jane-smith img{
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.mold2 .jane-n1 p{
+    display: inline;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 160px;
+    margin-top: 25px;
+    color: #6B6464;
+}
+
+.mold2 .Date-1 p{
+    font-size: 10px;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    margin-right: 178px;
+    color: #6B6464;
+}
+
+.mold2 .time-1{
+    margin-right: 50px;
+}
+
+.mold2 .time-1 i{
+    display: inline;
+    float: right;
+    font-size: 12px;
+    margin-top: -13px;
+    margin-right: 110px;
+    color: #6B6464;
+}
+
+.mold2 .time-1 p{
+    display: inline;
+    float: right;
+    font-size: 10px;
+    margin-top: -13px;
+    margin-right: 80px;
+    color: #6B6464;
+}
+
+.last-container{
+    width: 77%;
+    height: 400px;
+    margin: auto;
+}
+
+.last-container .subscribe{
+    width: 100%;
+    height: 344px;
+    background: #FFFFFF;
+    border: 2px solid #D1CCCC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.subscribe .plane i{
+    display: inline;
+    float: left;
+    font-size: 140px;
+    margin-top: -90px;
+    margin-left: 100px;
+    color: #7C79E6;
+}
+
+.subscribe .plane h5{
+    width: 600px;
+    height: 43px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+    color: #393737;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.subscribe .plane p{
+    margin-left: 300px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #756C6C;
+}
+
+.subscribe .plane .email{
+    width: 342px;
+    height: 43px;
+    background-color: #C5CFDF;
+    border-radius: 3px;
+    margin-left: 400px;
+    margin-top: 35px;
+}
+
+.subscribe .plane .email p{
+    width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464545;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.subscribe .plane .sub-btn button{
+    width: 204px;
+    height: 55px;
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+    background: #7C79E7;
+    border-radius: 20px;
+    color: #1A1919;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 28px;
+    margin-left: 470px;
+}
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #E5EBF6;
+}
+
+.footer .foot{
+    height: 350px;
+    width: 77%;
+    margin: auto;
+}
+
+.foot .last-image{
+    height: 200px;
+    width: 200px;
+
+    display: inline;
+    float: left;
+    margin-top: 45px;
+}
+
+.foot .last-image .rights{
+    margin-top: 20px;
+}
+
+.foot .last-image .rights i{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: inline;
+    float: left;
+    margin-top: 3px;
+}
+
+.foot .last-image .rights p{
+    position: absolute;
+    width: 227px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 23px;
+    color: #3E3A3A;height: 23px;
+    margin-left: 20px;
+}
+
+.foot .last-image .rights h4{
+    padding-top: 50px;
+    width: 150px;
+    height: 20px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.last-image2{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    float: left;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.footlist{
+    display: inline;
+    float: left;
+    padding-top: 45px;
+    padding-left: 190px;
+}
+
+.footlist h3{
+    margin-left: 15px;
+}
+
+.footlist a{
+    text-decoration: none;
+    color: #4d4848;
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footlist li{
+    list-style: none;
+    color: #171717;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
