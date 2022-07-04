@@ -1,0 +1,1069 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee&family=Fraunces:ital,wght@0,600;0,800;1,500&family=Lexend+Deca:wght@600;700&family=Libre+Baskerville&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 15%;
+    width: 80%;
+    position: absolute;
+    margin-left: 9.2rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    border-bottom: 0.1rem  solid #C9C3C3;
+}
+
+.navbar h3{
+    position: absolute;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: #000000;
+    margin-left: -64rem;
+    margin-top: 1.6rem;
+}
+
+.navbar ul{
+    display: flex;
+    margin-top: 2.9rem;
+    margin-left: -18rem;
+}
+
+.navbar li{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar .navlist-item a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #8E8C8C;
+    margin-left: 2rem;
+}
+
+.navbar i{
+    position: absolute;
+    font-size: 1.4rem;
+    margin-left: 61rem;
+    margin-top: 2.9rem;
+    color: #8E8C8C;
+}
+
+.navbar img{
+    position: absolute;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    margin-left: 29.6rem;
+    margin-top: 1.5rem;
+}
+
+.middle {
+    height: 78%;
+    width: 80vw;
+    position: absolute;
+    margin-left: 9.2rem;
+    margin-top: 8rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.all{
+    /* background-color: brown; */
+}
+
+.all .sneaker img{
+    width: 29rem;
+    height: 28rem;
+    margin-left: -rem;
+    border-radius: 1rem;
+    margin-top: 1.3rem;
+}
+
+.imgg{
+    /* background-color: #E5BD89; */
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    width: 29rem;
+    margin-top: 0.8rem;
+}
+
+.sneak0 img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+    opacity: 0.4;
+    border: 0.2rem solid #FF7D17;
+}
+
+.sneak1 img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+}
+
+.sneak2 img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+}
+
+.sneak3 img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+}
+
+.box{
+    width: 50vw;
+    margin-left: 5rem;
+    padding-top: 40vh;
+    /* background-color: blueviolet; */
+}
+
+.box h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: -14rem;
+    color: #D86A1D;
+} 
+
+.box h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 30rem;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    margin-top: 1.2rem;
+}
+
+.box p{
+    font-size: 1.5rem;
+    width: 40rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #857D7D;
+    margin-top: 0.4rem;
+}
+
+.price h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.price-container{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.cut-price del{
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    color: #8E8C8C;
+}
+
+.cut-price{
+    margin-top: 0.5rem;
+}
+
+.btn button{
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #E5BD89;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1rem;
+    /* margin-top: rem; */
+    margin-left: 2rem;
+    color: #D86A1D;
+}
+
+.plus-minus{
+    width: 11rem;
+    height: 2.6rem;
+    background-color: #F6F7FB;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.cart{
+    width: 22rem;
+    height: 3rem;
+    background-color: #D86A1D;
+    border-radius: 0.5rem;
+    margin-top: -2.9rem;
+    margin-left: 14rem;
+}
+
+.mimus i{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+    color: #D86A1D;
+}
+
+.zero i{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding-top: 0.7rem;
+    padding-left: 2.9rem;
+}
+
+.plus i{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding-top: 0.7rem;
+    padding-left: 3.2rem;
+    color: #D86A1D;
+}
+
+.cart .trolly i{
+    padding-top: 0.9rem;
+    padding-left: 6.6rem;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+.cart h6{
+    position: relative;
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 9rem;
+    margin-top: -1.3rem;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) And (min-width: 350px) {
+
+    .navbar{
+        height: 18vh;
+        width: 170vw;
+        position: absolute;
+        margin-left: 3.2rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        border-bottom: 0.1rem  solid #C9C3C3;
+    }
+
+    .navbar h3{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.6rem;
+        color: #000000;
+        margin-left: -40rem;
+        margin-top: 1.6rem;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar i{
+        position: absolute;
+        font-size: 2rem;
+        margin-left: 38rem;
+        margin-top: 2.5rem;
+        color: #8E8C8C;
+    }
+
+    .navbar img{
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 100%;
+        margin-left: 22rem;
+        margin-top: 1.5rem;
+    }
+
+    .middle {
+        height: 78%;
+        width: 80vw;
+        position: absolute;
+        margin-left: 9.2rem;
+        margin-top: 15.5rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+
+    .all .sneaker img{
+        width: 53rem;
+        height: 50rem;
+        margin-left: -6rem;
+        border-radius: 1rem;
+        margin-top: 63rem;
+    }
+
+    .imgg{
+        /* background-color: #E5BD89; */
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+        width: 53rem;
+        margin-top: 0.8rem;
+        margin-left: -6rem;
+    }
+
+    .sneak0 img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 1rem;
+        opacity: 0.4;
+        border: 0.2rem solid #FF7D17;
+    }
+    
+    .sneak1 img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 1rem;
+    }
+    
+    .sneak2 img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 1rem;
+    }
+    
+    .sneak3 img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 1rem;
+    }
+
+    .box{
+        width: 169.6vw;
+        margin-left: -6rem;
+        padding-top: 40vh;
+        /* background-color: blueviolet; */
+    }
+    
+    .box h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 2.2rem;
+        font-weight: bolder;
+        margin-top: -14rem;
+        color: #D86A1D;
+    } 
+
+    .box h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 45rem;
+        font-size: 5rem;
+        font-weight: bolder;
+        margin-top: 1.2rem;
+    }
+    
+    .box p{
+        font-size: 2.6rem;
+        width: 54rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #857D7D;
+        margin-top: 0.4rem;
+    }
+
+    .price-container{
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .price h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 2.8rem;
+    }
+    
+    .cut-price del{
+        font-size: 2rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        color: #8E8C8C;
+    }
+
+    .btn button{
+        width: 5.5rem;
+        height: 2.6rem;
+        background-color: #E5BD89;
+        border: none;
+        border-radius: 0.3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 2.1rem;
+        margin-left: 1.5rem;
+        margin-top: 0.2rem;
+        color: #D86A1D;
+    }
+
+    .plus-minus{
+        display: none;
+    }
+
+    .cart .trolly i{
+        padding-top: 0.9rem;
+        padding-left: 6.6rem;
+        font-size: 1.1rem;
+        color: white;
+
+    }
+    
+    .cart h6{
+        position: relative;
+        font-size: 1.1rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 9rem;
+        margin-top: -1.3rem;
+        color: white;
+    }
+
+    .cart {
+        width: 45rem;
+        height: 4rem;
+        background-color: #D86A1D;
+        border-radius: 0.5rem;
+        margin-top: 1.0999999999999996rem;
+        margin-left: -0.01rem;
+    }
+
+    .cart .trolly i{
+        padding-top: 0.9rem;
+        padding-left: 14rem;
+        font-size: 2rem;
+        color: white;
+    
+    }
+    
+    .cart h6{
+        position: relative;
+        font-size: 2.1rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 18rem;
+        margin-top: -2.1rem;
+        color: white;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) And (max-width: 768px){
+
+    .navbar{
+        height: 18vh;
+        width: 160vw;
+        position: absolute;
+        margin-left: 4rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        border-bottom: 0.1rem  solid #C9C3C3;
+        /* background-color: aqua; */
+    }
+
+    .navbar h3{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.6rem;
+        color: #000000;
+        margin-left: -40rem;
+        margin-top: 1.6rem;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar i{
+        position: absolute;
+        font-size: 2rem;
+        margin-left: 55rem;
+        margin-top: 2.5rem;
+        color: #8E8C8C;
+    }
+
+    .navbar img{
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 100%;
+        margin-left: 31rem;
+        margin-top: 1.5rem;
+    }
+
+    .middle {
+        height: 78%;
+        width: 80vw;
+        position: absolute;
+        margin-left: 9.2rem;
+        margin-top: 32rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+
+    .all .sneaker img{
+        width: 70rem;
+        height: 65rem;
+        margin-left: -5.2rem;
+        border-radius: 1rem;
+        margin-top: 63rem;
+    }
+
+    .imgg{
+        /* background-color: #E5BD89; */
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+        width: 70rem;
+        margin-top: 0.8rem;
+        margin-left: -5.2rem;
+    }
+
+    .sneak0 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+        opacity: 0.4;
+        border: 0.2rem solid #FF7D17;
+    }
+    
+    .sneak1 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+    
+    .sneak2 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+    
+    .sneak3 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+
+    .box{
+        width: 169.6vw;
+        margin-left: -6rem;
+        margin-top: 2rem;
+        padding-top: 40vh;
+        /* background-color: blueviolet; */
+    }
+    
+    .box h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 2.8rem;
+        font-weight: bolder;
+        margin-top: -14rem;
+        color: #D86A1D;
+    } 
+
+    .box h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 65rem;
+        font-size: 7.5rem;
+        font-weight: bolder;
+        margin-top: 1.2rem;
+    }
+    
+    .box p{
+        font-size: 3.5rem;
+        width: 75rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #857D7D;
+        margin-top: 0.4rem;
+    }
+
+    .price-container{
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .price h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 3.6rem;
+    }
+    
+    .cut-price del{
+        font-size: 3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        color: #8E8C8C;
+    }
+
+    .btn button{
+        width: 5.5rem;
+        height: 3rem;
+        background-color: #E5BD89;
+        border: none;
+        border-radius: 0.3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 2.5rem;
+        margin-left: 1.5rem;
+        margin-top: 0.2rem;
+        color: #D86A1D;
+    }
+
+    .plus-minus{
+        display: none;
+    }
+
+    .cart .trolly i{
+        padding-top: 0.9rem;
+        padding-left: 6.6rem;
+        font-size: 1.1rem;
+        color: white;
+
+    }
+    
+    .cart h6{
+        position: relative;
+        font-size: 1.1rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 9rem;
+        margin-top: -1.3rem;
+        color: white;
+    }
+
+    .cart {
+        width: 70rem;
+        height: 6rem;
+        background-color: #D86A1D;
+        border-radius: 0.5rem;
+        margin-top: 1.0999999999999996rem;
+        margin-left: -0.01rem;
+    }
+
+    .cart .trolly i{
+        padding-top: 0.9rem;
+        padding-left: 27rem;
+        font-size: 3rem;
+        color: white;
+    
+    }
+    
+    .cart h6{
+        position: relative;
+        font-size: 3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 34rem;
+        margin-top: -2.9rem;
+        color: white;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) And (max-width: 991px) {
+
+
+    .navbar{
+        height: 18vh;
+        width: 105vw;
+        position: absolute;
+        margin-left: 1.8rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        border-bottom: 0.1rem  solid #C9C3C3;
+        /* background-color: aqua; */
+    }
+
+    .navbar h3{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.6rem;
+        color: #000000;
+        margin-left: -48rem;
+        margin-top: 1.6rem;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar i{
+        position: absolute;
+        font-size: 2rem;
+        margin-left: 50rem;
+        margin-top: 2.5rem;
+        color: #8E8C8C;
+    }
+
+    .navbar img{
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 100%;
+        margin-left: 28rem;
+        margin-top: 1.5rem;
+    }
+
+    .middle {
+        height: 78%;
+        width: 75vw;
+        position: absolute;
+        margin-left: 5rem;
+        margin-top: 32rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+
+    .all .sneaker img{
+        width: 65rem;
+        height: 65rem;
+        margin-left: -3.5rem;
+        border-radius: 1rem;
+        margin-top: 63rem;
+    }
+
+    .imgg{
+        /* background-color: #E5BD89; */
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+        width: 65rem;
+        margin-top: 0.8rem;
+        margin-left: -3.5rem;
+    }
+
+    .sneak0 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+        opacity: 0.4;
+        border: 0.2rem solid #FF7D17;
+    }
+    
+    .sneak1 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+    
+    .sneak2 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+    
+    .sneak3 img{
+        width: 14rem;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+
+    .box{
+        width: 65rem;
+        margin-left: -3.3rem;
+        margin-top: 2rem;
+        padding-top: 40vh;
+        /* background-color: blueviolet; */
+    }
+    
+    .box h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: -14rem;
+        color: #D86A1D;
+    } 
+
+    .box h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 65rem;
+        font-size: 7rem;
+        font-weight: bolder;
+        margin-top: 1.2rem;
+    }
+    
+    .box p{
+        font-size: 2.9rem;
+        width: 65rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #857D7D;
+        margin-top: 0.4rem;
+    }
+
+    .price-container{
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .price h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 3.6rem;
+    }
+    
+    .cut-price del{
+        font-size: 3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        color: #8E8C8C;
+    }
+
+    .btn button{
+        width: 5.5rem;
+        height: 3rem;
+        background-color: #E5BD89;
+        border: none;
+        border-radius: 0.3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 2.5rem;
+        margin-left: 1.5rem;
+        margin-top: 0.2rem;
+        color: #D86A1D;
+    }
+
+    .plus-minus{
+        display: none;
+    }
+
+    .cart .trolly i{
+        padding-top: 0.9rem;
+        padding-left: 6.6rem;
+        font-size: 1.1rem;
+        color: white;
+
+    }
+    
+    .cart h6{
+        position: relative;
+        font-size: 1.1rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 9rem;
+        margin-top: -1.3rem;
+        color: white;
+    }
+
+    .cart {
+        width: 65rem;
+        height: 5.5rem;
+        background-color: #D86A1D;
+        border-radius: 0.5rem;
+        margin-top: 1.0999999999999996rem;
+        margin-left: -0.01rem;
+    }
+
+    .cart .trolly i{
+        padding-top: 0.9rem;
+        padding-left: 22rem;
+        font-size: 3rem;
+        color: white;
+    
+    }
+    
+    .cart h6{
+        position: relative;
+        font-size: 3rem;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 28rem;
+        margin-top: -2.9rem;
+        color: white;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) And (max-width: 1199px) {
+
+    .navbar{
+        height: 15%;
+        width: 105.5vw;
+        position: absolute;
+        margin-left: 2rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        border-bottom: 0.1rem  solid #C9C3C3;
+        /* background-color: aqua; */
+    }
+    
+    .navbar h3{
+        position: absolute;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.6rem;
+        color: #000000;
+        margin-left: -60rem;
+        margin-top: 1.6rem;
+    }
+    
+    .navbar ul{
+        display: flex;
+        margin-top: 2.9rem;
+        margin-left: -18rem;
+    }
+    
+    .navbar li{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .navbar .navlist-item a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 1.1rem;
+        color: #8E8C8C;
+        margin-left: 2rem;
+    }
+    
+    .navbar i{
+        position: absolute;
+        font-size: 1.4rem;
+        margin-left: 60rem;
+        margin-top: 2.9rem;
+        color: #8E8C8C;
+    }
+    
+    .navbar img{
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 100%;
+        margin-left: 27rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .navbar{
+        height: 15%;
+        width: 98vw;
+        position: absolute;
+        margin-left: 2rem;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        border-bottom: 0.1rem  solid #C9C3C3;
+        /* background-color: aqua; */
+    }
+    
+    .navbar h3{
+        position: absolute;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.6rem;
+        color: #000000;
+        margin-left: -60rem;
+        margin-top: 1.6rem;
+    }
+    
+    .navbar ul{
+        display: flex;
+        margin-top: 2.9rem;
+        margin-left: -18rem;
+    }
+    
+    .navbar li{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .navbar .navlist-item a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 1.1rem;
+        color: #8E8C8C;
+        margin-left: 2rem;
+    }
+    
+    .navbar i{
+        position: absolute;
+        font-size: 1.4rem;
+        margin-left: 60rem;
+        margin-top: 2.9rem;
+        color: #8E8C8C;
+    }
+    
+    .navbar img{
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 100%;
+        margin-left: 27rem;
+        margin-top: 1.5rem;
+    }
+}
