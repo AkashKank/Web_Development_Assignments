@@ -1,0 +1,959 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee&family=Fraunces:ital,wght@0,600;0,800;1,500&family=Lexend+Deca:wght@100;200;600;700&family=Libre+Baskerville&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height:120vh;
+    background-color: black;
+    display: flex;
+}
+
+.navi1{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 2.6rem;
+    display: flex;
+    margin-top: 6rem;
+    margin-left: 15.6rem;
+}
+
+.devifinder h2{
+    color: azure;
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-family: Libre+Baskerville;
+}
+
+.light{
+    margin-left: 50.2rem;
+}
+
+.light h3{
+    color: rgb(222, 224, 225);
+    font-size: 1rem;
+    font-family: 'Lexend Deca';
+    font-weight: 550;
+    margin-top: 0.5rem;
+}
+
+.sun i{
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+    color: rgb(222, 224, 225);
+}
+
+.navi2{
+    background-color: #1f2a48;
+    width: 80%;
+    height: 2.9rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 15.6rem;
+    border-radius: 0.6rem;
+}
+
+.search{
+    margin-top: 0.7rem;
+    margin-left: 1.3rem;
+}
+
+.search i{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #345c8f;
+}
+
+.search-username{
+    margin-top: 0.6rem;
+    margin-left: 1.5rem;
+}
+
+.search-username h5{
+    color: rgb(187, 189, 191);
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: 510;
+}
+
+.btn-search{
+    margin-left: 37.4rem;
+    margin-top: 0.3rem;
+}
+
+.btn-search button{
+    font-size: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Lexend Deca';
+    font-weight: 550;
+    height: 2.2rem;
+    width: 5.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #0679f9;
+    color: azure;
+}
+
+
+.big-container{
+    background-color: #1f2a48;
+    width: 80%;
+    height: 27.5rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 15.6rem;
+    border-radius: 0.6rem;
+}
+
+.git-image img{
+    height: 7rem;
+    width: 7rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.octocat{
+    margin-top: -25.6rem;
+    margin-left: 27rem;
+}
+
+.octocat h2{
+    font-size: 1.9rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: azure;
+}
+
+.date{
+    margin-top: -1.7rem;
+}
+
+.date h5{
+    margin-left: 38rem;
+    font-size: 1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+}
+
+.octocat h3{
+    font-size: 1.3rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    margin-top: 0.7rem;
+    color: #345c8f;
+}
+
+.octocat h4{
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(187, 189, 191);
+}
+
+.activity{
+    height: 13vh;
+    width: 50vw;
+    background-color: #141c2f;
+    margin-top: 2.3rem;
+    margin-left: 27rem;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.repos{
+    /* background-color: #0679f9; */
+    width: 4rem;
+    height: 6vh;
+    margin-left: 2.2rem;
+    margin-top: 1.6rem;
+}
+
+.repos h6{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+}
+
+.repos h5{
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca';
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+}
+
+.followers{
+    /* background-color: #0679f9; */
+    width: 6rem;
+    height: 6vh;
+    margin-top: 1.6rem;
+}
+
+.followers h6{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+}
+
+.followers h5{
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca';
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+} 
+
+.following{
+    /* background-color: #0679f9; */
+    width: 6rem;
+    height: 6vh;
+    margin-right: 4.5rem;
+    margin-top: 1.6rem;
+}
+
+.following h6{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+}
+
+.following h5{
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca';
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+} 
+
+.contact1{
+    height: 10.5vh;
+    width: 22vw;
+    /* background-color: brown; */
+    margin-top: 2.5rem;
+    margin-left: 27rem;
+}
+
+.location{
+    display: flex;
+}
+
+.location i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+}
+
+.location h4{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+    margin-left: 1rem;
+}
+
+.blog{
+    display: flex;
+    margin-top: 1.1rem;
+}
+
+.blog i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+}
+
+.blog h4{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+    margin-left: 1rem;
+} 
+
+.contact2{
+    height: 10.5vh;
+    width: 22vw;
+    /* background-color: rgb(165, 149, 42); */
+    margin-top: -5rem;
+    margin-left: 52rem;
+}
+
+.twitter{
+    display: flex;
+}
+
+.twitter i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+}
+
+.twitter h4{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(111, 113, 114);
+    margin-left: 1rem;
+}
+
+.building{
+    display: flex;
+    margin-top: 1.1rem;
+}
+
+.building i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(222, 224, 225);
+}
+
+.building h4{
+    font-size: 1.1rem;
+    font-family: 'Lexend Deca';
+    font-weight: bold;
+    color: rgb(187, 189, 191);
+    margin-left: 1rem;
+} 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 350px) And (max-width: 600px) {
+
+     .navi1{
+        /* background-color: aqua; */
+        width: 32rem;
+        height: 2.6rem;
+        display: flex;
+        margin-top: 2.7rem;
+        margin-left: 1rem;
+    }
+    
+    .devifinder h2{
+        color: azure;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: Libre+Baskerville;
+    }
+    
+    .light{
+        margin-left: 18rem;
+    }
+    
+    .light h3{
+        color: rgb(222, 224, 225);
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: 550;
+        margin-top: 0.6rem;
+    }
+    
+    .sun i{
+        margin-left: 0.7rem;
+        margin-top: 0.8rem;
+        color: rgb(222, 224, 225);
+        font-size: 1.1rem;
+    } 
+
+     .navi2{
+        background-color: #1f2a48;
+        width: 32rem;
+        height: 4.5rem;
+        display: flex;
+        margin-top: 2.8rem;
+        margin-left: 1rem;
+        border-radius: 0.6rem;
+    }
+    
+    .search{
+        margin-top: 1.2rem;
+        margin-left: 1rem;
+    }
+    
+    .search i{
+        font-size: 2.2rem;
+        font-weight: bolder;
+        color: #345c8f;
+    }
+    
+    .search-username{
+        width: rem;
+        margin-top: 1.3rem;
+        margin-left: 1.7rem;
+    }
+    
+    .search-username h5{
+        color: rgb(187, 189, 191);
+        font-size: 1.3rem;
+        font-family: 'Lexend Deca';
+        font-weight: 510;
+        width: 18rem;
+    }
+    
+    .btn-search{
+        margin-left: 2rem;
+        margin-top: 0.8rem;
+    }
+    
+    .btn-search button{
+        font-size: 1rem;
+        font-size: 0.9rem;
+        font-family: 'Lexend Deca';
+        font-weight: 550;
+        height: 3rem;
+        width: 6.6rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #0679f9;
+        color: azure;
+    }
+
+    .big-container{
+        background-color: #1f2a48;
+        width: 32rem;
+        height: 40rem;
+        display: flex;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        border-radius: 0.6rem;
+    }
+    
+    .git-image img{
+        height: 7rem;
+        width: 7rem;
+        margin-top: 1.7rem;
+        margin-left: 1.4rem;
+        display: flex;
+    }
+
+    .octocat{
+        margin-left: 12rem;
+        margin-top: -37.3rem;
+    }
+
+    .octocat h2{
+        font-size: 1.3rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: azure;
+    }
+    
+    .date h5{
+        margin-left: 0rem;
+        margin-top: 2.3rem;
+        font-size: 0.9rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .octocat h3{
+        font-size: 0.9rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        margin-top: rem;
+        color: #345c8f;
+    }
+    
+    .octocat h4{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        margin-top: 3.2rem;
+        color: rgb(187, 189, 191);
+        margin-left: -8rem;
+    } 
+
+    .activity{
+        height: 13vh;
+        width: 80vw;
+        background-color: #141c2f;
+        margin-top: 2.5rem;
+        margin-left: 3.8rem;
+        border-radius: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+    .repos{
+        /* background-color: #0679f9; */
+        width: 4rem;
+        height: 6vh;
+        margin-left: 2.2rem;
+        margin-top: 1.6rem;
+    }
+    
+    .repos h6{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .repos h5{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .followers{
+        /* background-color: #0679f9; */
+        width: 6rem;
+        height: 6vh;
+        margin-top: 1.6rem;
+    }
+    
+    .followers h6{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .followers h5{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    } 
+    
+    .following{
+        /* background-color: #0679f9; */
+        width: 6rem;
+        height: 6vh;
+        margin-right: 4.5rem;
+        margin-top: 1.6rem;
+    }
+    
+    .following h6{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .following h5{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    } 
+
+    .contact1{
+        height: 10.5vh;
+        width: 50vw;
+        /* background-color: brown; */
+        margin-top: 2.5rem;
+        margin-left: 3.8rem;
+    }
+    
+    .location{
+        display: flex;
+    }
+    
+    .location i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .location h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+        margin-left: 1rem;
+    }
+    
+    .blog{
+        display: flex;
+        margin-top: 1.1rem;
+    }
+    
+    .blog i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .blog h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+        margin-left: 1rem;
+    } 
+    
+    .contact2{
+        height: 10.5vh;
+        width: 50vw;
+        /* background-color: rgb(165, 149, 42); */
+        margin-top: 1rem;
+        margin-left: 3.8rem;
+    }
+    
+    .twitter{
+        display: flex;
+    }
+    
+    .twitter i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .twitter h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(111, 113, 114);
+        margin-left: 1rem;
+    }
+    
+    .building{
+        display: flex;
+        margin-top: 1.1rem;
+    }
+    
+    .building i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .building h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+        margin-left: 1rem;
+    } 
+}
+
+/* small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) And (max-width: 767px) {
+    .navi1{
+        /* background-color: aqua; */
+        width: 42rem;
+        height: 2.6rem;
+        display: flex;
+        margin-top: 2.7rem;
+        margin-left: 1rem;
+    }
+    
+    .devifinder h2{
+        color: azure;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: Libre+Baskerville;
+    }
+    
+    .light{
+        margin-left: 28rem;
+    }
+    
+    .light h3{
+        color: rgb(222, 224, 225);
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: 550;
+        margin-top: 0.6rem;
+    }
+    
+    .sun i{
+        margin-left: 0.7rem;
+        margin-top: 0.8rem;
+        color: rgb(222, 224, 225);
+        font-size: 1.1rem;
+    } 
+
+     .navi2{
+        background-color: #1f2a48;
+        width: 42rem;
+        height: 4.5rem;
+        display: flex;
+        margin-top: 2.8rem;
+        margin-left: 1rem;
+        border-radius: 0.6rem;
+    }
+    
+    .search{
+        margin-top: 1.2rem;
+        margin-left: 1.7rem;
+    }
+    
+    .search i{
+        font-size: 2.2rem;
+        font-weight: bolder;
+        color: #345c8f;
+    }
+    
+    .search-username{
+        width: rem;
+        margin-top: 1.3rem;
+        margin-left: 1.8rem;
+    }
+    
+    .search-username h5{
+        color: rgb(187, 189, 191);
+        font-size: 1.3rem;
+        font-family: 'Lexend Deca';
+        font-weight: 510;
+        width: 18rem;
+    }
+    
+    .btn-search{
+        margin-left: 10.5rem;
+        margin-top: 0.8rem;
+    }
+    
+    .btn-search button{
+        font-size: 1rem;
+        font-size: 0.9rem;
+        font-family: 'Lexend Deca';
+        font-weight: 550;
+        height: 3rem;
+        width: 6.6rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #0679f9;
+        color: azure;
+    }
+
+    .big-container{
+        background-color: #1f2a48;
+        width: 42rem;
+        height: 32rem;
+        display: flex;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        border-radius: 0.6rem;
+    }
+    
+    .git-image img{
+        height: 9rem;
+        width: 9rem;
+        margin-top: 1.7rem;
+        margin-left: 1.4rem;
+        display: flex;
+    }
+
+    .octocat{
+        margin-left: 15rem;
+        margin-top: -29rem;
+    }
+
+    .octocat h2{
+        font-size: 1.8rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: azure;
+    }
+    
+    .date h5{
+        margin-left: 0rem;
+        margin-top: 2.3rem;
+        font-size: 1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .octocat h3{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        margin-top: rem;
+        color: #345c8f;
+    }
+    
+    .octocat h4{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        margin-top: 3.5rem;
+        color: rgb(187, 189, 191);
+        margin-left: -9rem;
+    } 
+
+    .activity{
+        height: 13vh;
+        width: 80vw;
+        background-color: #141c2f;
+        margin-top: 2.5rem;
+        margin-left: 3.8rem;
+        border-radius: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+    .repos{
+        /* background-color: #0679f9; */
+        width: 4rem;
+        height: 6vh;
+        margin-left: 2.2rem;
+        margin-top: 1.6rem;
+    }
+    
+    .repos h6{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .repos h5{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .followers{
+        /* background-color: #0679f9; */
+        width: 6rem;
+        height: 6vh;
+        margin-top: 1.6rem;
+    }
+    
+    .followers h6{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .followers h5{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    } 
+    
+    .following{
+        /* background-color: #0679f9; */
+        width: 6rem;
+        height: 6vh;
+        margin-right: 4.5rem;
+        margin-top: 1.6rem;
+    }
+    
+    .following h6{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+    }
+    
+    .following h5{
+        font-size: 1.2rem;
+        font-family: 'Lexend Deca';
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    } 
+
+    .contact1{
+        height: 10.5vh;
+        width: 50vw;
+        /* background-color: brown; */
+        margin-top: 2.5rem;
+        margin-left: 3.8rem;
+    }
+    
+    .location{
+        display: flex;
+    }
+    
+    .location i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .location h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+        margin-left: 1rem;
+    }
+    
+    .blog{
+        display: flex;
+        margin-top: 1.1rem;
+    }
+    
+    .blog i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .blog h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+        margin-left: 1rem;
+    } 
+    
+    .contact2{
+        height: 10.5vh;
+        width: 30vw;
+        /* background-color: rgb(165, 149, 42); */
+        margin-left: 25rem; 
+        margin-top: -4rem;
+    }
+    
+    .twitter{
+        display: flex;
+    }
+    
+    .twitter i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .twitter h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(111, 113, 114);
+        margin-left: 1rem;
+    }
+    
+    .building{
+        display: flex;
+        margin-top: 1.1rem;
+    }
+    
+    .building i{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: rgb(222, 224, 225);
+    }
+    
+    .building h4{
+        font-size: 1.1rem;
+        font-family: 'Lexend Deca';
+        font-weight: bold;
+        color: rgb(187, 189, 191);
+        margin-left: 1rem;
+    } 
+}
+
+
+
+
+
+
+
