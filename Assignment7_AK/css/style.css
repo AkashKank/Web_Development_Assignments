@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee&family=Fraunces:ital,wght@0,600;0,800;1,500&family=Lexend+Deca:wght@100;200;600;700&family=Libre+Baskerville&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: red;
+    height: 700px;
+    /* width: 900px; */
+    display: grid;
+    /* grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px; */
+    grid-template-rows: 143px 1fr 43px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 12px;
+    justify-items: start;
+    /* align-items: center; */
+    place-items: center;
+}
+
+.item{
+    background-color: aqua;
+    height: 143px;
+    width: 122px;
+}
+
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1 / span 3;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.item2{
+   /* justify-self: center;
+   align-self: center; */
+   /* place-self: center; */
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+    width: 100%;
+}
